@@ -10,6 +10,6 @@ Récupérer les sources à partir de Github
 Contenu
 -------
 - 01 Environnement : NodeJS, npm & dépendences
-- 02 Typescript : Langage à al norme ES6 & Webpack
-- 03 Client @angular/cli : Génération et structure d'un projet généré avec le clien tAngaulr v6
-- 
+- 02 Typescript : Langage à la norme ES6 & compilation Webpack
+- 03 Client @angular/cli : Génération et structure d'un projet généré avec le client Angular v6
+- 04 En cours...
