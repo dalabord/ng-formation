@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-classroom-list',
@@ -6,15 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./classroom-list.component.scss']
 })
 export class ClassroomListComponent implements OnInit {
-  students: any;
+  @Input() students: any;
 
   constructor() { }
 
   ngOnInit() {
-    this.students = [
-      {name: 'Alain', age: 26},
-      {name: 'Hélène', age: 28}
-    ]
   }
 
 }
