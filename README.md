@@ -4,7 +4,8 @@ Formation à Angular (en v6 à ce moment)
 Installation
 -----------
 Récupérer les sources à partir de Github
-   git clone https://github.com/dalabord/ng-formation.git
+
+    git clone https://github.com/dalabord/ng-formation.git
 
 Contenu
 -------
