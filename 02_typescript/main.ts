@@ -1,8 +1,4 @@
-import { Test } from './test';
+import { Student } from './student';
 
-const test = new Test('Youpi');
-/* export class main {
-    constructor() {
-        
-    }
-} */
+const test = new Student('Alain', 26);
+test.info();
