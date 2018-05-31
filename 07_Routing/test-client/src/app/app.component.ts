@@ -7,5 +7,5 @@ import { Student } from './core/models/student';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Beaugrenelle';
 }

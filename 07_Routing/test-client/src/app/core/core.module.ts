@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AboutComponent } from './about/about.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -10,7 +12,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
     CoreRoutingModule
   ],
   declarations: [
-    NotFoundComponent
+    NotFoundComponent,
+    AboutComponent
+  ],
+  exports: [
+    RouterModule
   ]
 })
 export class CoreModule { }

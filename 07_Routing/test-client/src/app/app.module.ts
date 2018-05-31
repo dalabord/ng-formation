@@ -12,7 +12,6 @@ import { ClassroomModule } from './classroom/classroom.module';
   imports: [
     BrowserModule,
     CoreModule,
-    ClassroomModule
   ],
   providers: [],
   bootstrap: [AppComponent]
