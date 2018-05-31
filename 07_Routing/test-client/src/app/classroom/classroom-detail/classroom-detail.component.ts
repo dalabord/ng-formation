@@ -11,7 +11,7 @@ import { StudentService } from '../../shared/services/student.service';
 })
 export class ClassroomDetailComponent implements OnInit {
   private sub: Subscription;
-  student: Observable<Student>;
+  student$: Observable<Student>;
 
   constructor(
     private route: ActivatedRoute,
@@ -20,7 +20,7 @@ export class ClassroomDetailComponent implements OnInit {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-      this.student = this.studentService.student(params['name']);
+      this.student$ = this.studentService.student(params['name']);
    });
   }
 
