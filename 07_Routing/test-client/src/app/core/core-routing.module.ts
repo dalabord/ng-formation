@@ -16,11 +16,7 @@ const routes: Routes = [
   {
     path: 'classroom',
     loadChildren: '../classroom/classroom.module#ClassroomModule'
-  },/*
-  {
-    path: 'classroom/:name',
-    loadChildren: '../classroom/classroom-detail/classroom-detail.component'
-  },*/
+  },
   {
     path: '**',
     component: NotFoundComponent

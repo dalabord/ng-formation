@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Student } from './core/models/student';
+import { Student } from './shared/models/student';
 
 @Component({
   selector: 'app-root',

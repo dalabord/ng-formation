@@ -4,6 +4,7 @@ import { ClassroomListComponent } from './classroom-list/classroom-list.componen
 import { SharedModule } from '../shared/shared.module';
 import { OrderByPipe } from '../shared/pipe/order-by.pipe';
 import { ClassroomRoutingModule } from './classroom-routing.module';
+import { ClassroomDetailComponent } from './classroom-detail/classroom-detail.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { ClassroomRoutingModule } from './classroom-routing.module';
   ],
   declarations: [
     ClassroomListComponent,
+    ClassroomDetailComponent,
   ]
 })
 export class ClassroomModule { }

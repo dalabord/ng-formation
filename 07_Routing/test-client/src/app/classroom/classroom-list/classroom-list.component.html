@@ -12,6 +12,7 @@
 
 <ul>
   <li *ngFor="let student of students | textFilter:'name':searchInput | orderBy:'name':sortAsc">
-    {{ student | json }}
+    {{ student | json }} <a routerLink="/classroom/student/{{ student.name | lowercase }}">Détail</a>
   </li>
 </ul>
+
